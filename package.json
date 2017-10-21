@@ -1,0 +1,19 @@
+{
+  "name": "bs-koa",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "1.9.3"
+  },
+  "dependencies": {
+    "koa": "^2.3.0"
+  }
+}
